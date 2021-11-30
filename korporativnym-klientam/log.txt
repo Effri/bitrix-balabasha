@@ -1,0 +1,30 @@
+Host: balabasha.alm.su
+Date: 2020-03-26 16:34:20
+Module: TEST_EVENT
+array (
+  'NAME' => '2323232332',
+  'MODIFIED_BY' => '3',
+  'PROPERTY_VALUES' => 
+  array (
+    329 => '232323232323',
+    330 => 'reak002@gmail.com',
+  ),
+  'ACTIVE' => 'Y',
+  'IBLOCK_ID' => 35,
+  'DATE_ACTIVE_FROM' => '26.03.2020 16:34:20',
+  'ACTIVE_FROM' => '26.03.2020 16:34:20',
+  'SEARCHABLE_CONTENT' => '2323232332',
+  'CREATED_BY' => 3,
+  '~DATE_CREATE' => 'now()',
+  '~TIMESTAMP_X' => 'now()',
+  'XML_ID' => 609,
+  'ID' => 609,
+  'RESULT' => 609,
+)
+    MyClass::OnAfterIBlockElementAddHandler < ExecuteModuleEventEx < CAllIBlockElement::Add < include < CBitrixComponent::__includeComponent
+	/var/www/user42435/data/www/balabasha.alm.su/bitrix/modules/main/classes/general/module.php:475
+	/var/www/user42435/data/www/balabasha.alm.su/bitrix/modules/iblock/classes/general/iblockelement.php:3632
+	/var/www/user42435/data/www/balabasha.alm.su/bitrix/components/bitrix/iblock.element.add.form/component.php:756
+	/var/www/user42435/data/www/balabasha.alm.su/bitrix/modules/main/classes/general/component.php:604
+	/var/www/user42435/data/www/balabasha.alm.su/bitrix/modules/main/classes/general/component.php:663
+----------

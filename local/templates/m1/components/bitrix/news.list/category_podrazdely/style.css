@@ -1,0 +1,128 @@
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.middle-banners .slick-dots {
+    padding: 0;
+}
+
+.middle-banners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-banner {
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    border: 1px solid transparent;
+    margin: 0 15px;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.middle-banner:hover {
+    box-shadow: 0 15px 25px rgba(0,0,0,.15);
+}
+
+.middle-banner__image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 262px;
+}
+
+.middle-banner__header {
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #222;
+    text-align: center;
+}
+
+.middle-banner__button-wrapper {
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 34px;
+}
+
+.middle-banner__button.btn {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+.middle-banner__button.btn {
+    display: inline-block;
+    font-family: Open Sans;
+    font-style: normal;
+    padding: 10px 42px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    /* padding: 9px 24px; */
+    background: none;
+    outline: none;
+    border: 1px solid #222;
+    border-radius: 2px;
+}
+
+.middle-banner__button.btn:hover {
+    background: #bc0672;
+    border-color: #bc0672;
+    box-shadow: unset;
+    color: #fff;
+}
+
+@media (min-width: 1200px) {
+    .middle-banner {
+        margin: 0;
+        width: 585px !important;
+    }
+
+    .middle-banner__image {
+        height: 550px;
+    }
+
+    .middle-banner__current-price,
+    .middle-banner__header {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .middle-banner__header {
+        margin-top: 44px;
+    }
+
+    .middle-banner__button-wrapper {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 61px;
+    }
+
+    .middle-banner__button.btn {
+        padding: 15px 42px;
+    }
+}
+@media only screen and (max-width : 767px) {
+    .middle-banners {
+        display: unset;
+    }
+}
+@media only screen and (max-width : 499px) {
+}
